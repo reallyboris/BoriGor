@@ -95,17 +95,17 @@ country = {
 
 economy = {
 	MAX_DAILY_RESEARCH		    = 100,
-	LOAN_BASE_INTEREST			= 0.07,
+	LOAN_BASE_INTEREST			= 0.02,
 	BANKRUPTCY_EXTERNAL_LOAN_YEARS	= 10,
 	BANKRUPTCY_FACTOR = 0.2,
 	SHADOWY_FINANCIERS_MAX_LOAN_AMOUNT = 150000,
-	MAX_LOAN_CAP_FROM_BANKS = 3, -- can loan max % of country tax base from single country
+	MAX_LOAN_CAP_FROM_BANKS = 20, -- can loan max % of country tax base from single country
 	GUNBOAT_LOW_TAX_CAP = 0.0,
 	GUNBOAT_HIGH_TAX_CAP = 1.0,
 	GUNBOAT_FLEET_SIZE_FACTOR = 100,
 	PROVINCE_SIZE_DIVIDER = 50,
 	CAPITALIST_BUILD_FACTORY_STATE_EMPLOYMENT_PERCENT = 0.1, -- Capis don't build factories if less than this percent is employed in existing factories
-	GOODS_FOCUS_SWAP_CHANCE = 0, -- Percent increased chance that artisan wants to change goods independantly of how well he is doing presently
+	GOODS_FOCUS_SWAP_CHANCE = 0.05, -- Percent increased chance that artisan wants to change goods independantly of how well he is doing presently
 	NUM_CLOSED_FACTORIES_PER_STATE_LASSIEZ_FAIRE = 1, -- Number of closed factories allowed per state under Lassiez Faire
 	MIN_NUM_FACTORIES_PER_STATE_BEFORE_DELETING_LASSIEZ_FAIRE = 1, -- Min number of factories per state before starting to delete under Lassiez Faire
 	BANKRUPCY_DURATION = 2, -- Years til a bancrupcy clears all loans
@@ -115,16 +115,16 @@ economy = {
 	FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 0.98, -- % of how much we pay to the pops and capitalists, from the leftovers.
 	MAX_FACTORY_MONEY_SAVE = 2500,	-- how much money is stored maximum in a factory.
 	SMALL_DEBT_LIMIT = 10000,
-	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.8, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
+	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.75, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_HI = 0.4,	-- how fast pops are Hired when there is a high demand
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_LO = 0.1,	-- how fast pops are Hired when there is a medium demand
-	RGO_SUPPLY_DEMAND_FACTOR_FIRE = 0.4,		-- how fast pops are Fired when there is a low demand
+	RGO_SUPPLY_DEMAND_FACTOR_FIRE = 0,		-- how fast pops are Fired when there is a low demand
 	EMPLOYMENT_HIRE_LOWEST = 0.001,				-- we Hire pops no slower then x% of total required per day
 	EMPLOYMENT_FIRE_LOWEST = 0.001,				-- we Fire pops no slower then x% of total required per day
 	TRADE_CAP_LOW_LIMIT_LAND = 0, 				-- the lowest % the slider can go for land units
 	TRADE_CAP_LOW_LIMIT_NAVAL = 1, 			-- the lowest % the slider can go for naval units
 	TRADE_CAP_LOW_LIMIT_CONSTRUCTIONS = 0, 		-- the lowest % the slider can go for constructions
-	FACTORY_PURCHASE_MIN_FACTOR = 0.75,			-- the lowest % of its daily needs a factory will purchase
+	FACTORY_PURCHASE_MIN_FACTOR = 1,			-- the lowest % of its daily needs a factory will purchase
 	FACTORY_PURCHASE_DRAWDOWN_FACTOR = 0.025		-- the % a factory will reduce its input purchases each day if it did not sell all its goods (also used for scaling up production if all goods are sold)
 },
 
