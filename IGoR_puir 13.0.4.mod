@@ -1,3 +1,3 @@
-name = "IGoR_puir 13.0.4" 
-path = "mod/IGoR_puir 13.0.4" 
-user_dir = "IGoR_puir 13.0.4" 
+name = "BoriGor 0.1" 
+path = "mod/BoriGor 0.1" 
+user_dir = "BoriGor 0.1" 
