@@ -5,7 +5,7 @@
 	artisans = {
 		culture = niger_congo_a
 		religion = placeholder
-		size = 250
+		size = 10250
 	}
 
 	soldiers = {
@@ -77,7 +77,7 @@
 	farmers = {
 		culture = niger_congo_a
 		religion = placeholder
-		size = 42025
+		size = 32025
 	}
 
 	aristocrats = {

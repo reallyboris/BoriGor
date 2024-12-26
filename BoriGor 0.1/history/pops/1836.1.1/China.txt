@@ -8993,7 +8993,7 @@
 	artisans = {
 		culture = beifaren
 		religion = placeholder
-		size = 10000
+		size = 510000
 	}
 
 	artisans = {
@@ -9029,7 +9029,7 @@
 	farmers = {
 		culture = beifaren
 		religion = placeholder
-		size = 842948
+		size = 342948
 	}
 }
 #Laizhou (3636000/909000 POPS)
