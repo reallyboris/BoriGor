@@ -536,11 +536,11 @@ steamer_shipyard = {
 luxury_clothes_factory = {       
 	template = factory_template
 	input_goods = {   
-		#dye = 0.25	#3
-		silk = 5		#50	total input+maint = 62.825
+		regular_clothes = 2	#5.8 per
+		silk = 10		#2.2 per	total input+maint = 62.825
 	}
 	output_goods = luxury_clothes 
-	value = 3			#75
+	value = 4			#120
 #	bonus = {
 #		trigger = { 
 #			OR = {
@@ -563,11 +563,11 @@ luxury_clothes_factory = {
 luxury_furniture_factory = {       
 	template = factory_template
 	input_goods = { 
-		furniture = 1	 	#4.9
-		tropical_wood = 7.3	#39.42   total input+maint = 54.145
+		furniture = 5	 	#4.9 25
+		tropical_wood = 8.4	#1.19 per unit 10  total input+maint = 
 	}
 	output_goods = luxury_furniture 
-	value = 2.75		#69
+	value = 4		#120
 	bonus = {
 		trigger = { has_building = furniture_factory }
 		value = 0.1
