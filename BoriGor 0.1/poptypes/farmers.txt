@@ -25,8 +25,8 @@ life_needs = {
 
 
 luxury_needs = {	
-	regular_clothes = 3
-	furniture = 3
+	luxury_clothes = 3
+	luxury_furniture = 3
 	liquor = 1.5
 	paper = 1.0
 	telephones = 0.75
