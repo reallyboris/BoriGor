@@ -35,7 +35,7 @@ luxury_needs = {
 	fertilizer = 0.75 #0
 	coffee = 0.45
 	tobacco = 0.95
-	#fuel = 0.1
+	fuel = 0.1
 }
 
 country_migration_target =

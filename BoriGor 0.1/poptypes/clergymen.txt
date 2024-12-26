@@ -29,7 +29,7 @@ everyday_needs_income = {
 luxury_needs_income =
 {
 	type = education
-	weight = 0.5
+	weight = 0.95
 }
 
 luxury_needs = {

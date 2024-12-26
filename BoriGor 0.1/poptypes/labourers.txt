@@ -36,7 +36,7 @@ luxury_needs = {
 	explosives = 0.75
 	coffee = 0.45
 	tobacco = 0.95
-	#fuel = 0.1
+	fuel = 0.1
 }
 
 

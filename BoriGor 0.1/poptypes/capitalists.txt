@@ -48,13 +48,13 @@ luxury_needs = {
 	#rubber = 10
 	telephones = 20
 	automobiles = 20
-	#aeroplanes = 5
+	aeroplanes = 5
 	radio = 20
-	#fuel = 20
+	fuel = 20
 	#ammunition = 1 
 	#small_arms = 1 
 	#clipper_convoy = 2.5
-	#steamer_convoy = 2
+	steamer_convoy = 2
 }
 
 

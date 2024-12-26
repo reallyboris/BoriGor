@@ -29,7 +29,7 @@ everyday_needs_income =
 luxury_needs_income =
 {
 	type = administration
-	weight = 0.5
+	weight = 0.95
 }
 
 

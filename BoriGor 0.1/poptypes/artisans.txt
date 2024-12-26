@@ -21,20 +21,20 @@ luxury_needs = {
 	wine = 10
 	#aeroplanes = 0.4
 	radio = 1.0
-	#fuel = 0.2
+	fuel = 0.2
 	coffee = 2
 }
 
 everyday_needs = {
-	coal = 1
+	coal = 0.5
 	liquor = 5
 	regular_clothes = 5
-	furniture = 4
+	furniture = 5
 	paper = 5
 	glass = 1
 	tobacco = 3
-	tea = 5
-	cattle = 2.5
+	tea = 4.5
+	cattle = 2.25
 }
 
 life_needs = {

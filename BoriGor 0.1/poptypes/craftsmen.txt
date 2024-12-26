@@ -27,13 +27,13 @@ life_needs = {
 
 
 luxury_needs = {	
-	regular_clothes = 1
-	furniture = 1
+	luxury_clothes = 1
+	luxury_furniture = 1
 	paper = 2
 	telephones = 0.75
 	automobiles = 0.75
 	radio = 1.0
-	#fuel = 0.1
+	fuel = 0.1
 	tobacco = 0.95
 }
 
